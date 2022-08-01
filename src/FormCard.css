@@ -1,0 +1,52 @@
+p {
+  font-size: 12px;
+  margin: 5px 0px 5px 0px;
+  overflow-wrap: break-word;
+}
+
+.form-card {
+  background-color: #eeeeee;
+  border: 1px solid #021a2d;
+  margin: 5px 0px 5px 0px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  max-height: none;
+}
+
+.card-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 60%;
+}
+
+.form-card h5 {
+  margin: 5px 0px 5px 0px;
+}
+
+.form-card img {
+  width: 16vw;
+  height: 5vw;
+}
+
+.line-divide {
+  width: 2px;
+  border-right: 1px solid #012a2d;
+  margin: 10px;
+  max-width: 1%;
+  height: inherit;
+}
+
+.card-right-side {
+  width: 39%;
+}
+
+.right-buttons {
+  width: 95%;
+  background-color: #eeeeee;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+}

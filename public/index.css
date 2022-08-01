@@ -1,0 +1,17 @@
+header {
+  background-color: #141a2d;
+  position: sticky;
+  top: 0;
+  max-height: 73px;
+}
+
+.logo {
+  max-height: 70px;
+  scale: 0.64;
+  padding-left: 26px;
+  padding-top: 3px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}

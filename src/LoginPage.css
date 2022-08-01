@@ -1,0 +1,48 @@
+.login-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  margin-top: 0px;
+}
+
+.login-screen input {
+  border: 1.5px solid #8f8f8f;
+}
+
+.login-screen input:focus {
+  border: 1.5px solid #0987d6;
+}
+
+.login-screen img {
+  padding: 20px;
+}
+
+.login-screen button {
+  width: 256px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.login-screen h2 {
+  margin-bottom: 0px;
+}
+
+.red-text {
+  color: red;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: #fff;
+  border: 2px solid #0397d6;
+  color: #0397d6;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #0397d6;
+  color: #fff;
+}

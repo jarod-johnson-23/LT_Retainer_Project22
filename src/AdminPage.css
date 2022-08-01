@@ -1,0 +1,125 @@
+.admin-forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: top;
+}
+
+.center-line {
+  width: 2px;
+  border-right: 1px solid #012a2d;
+  margin: 10px;
+  max-width: 1%;
+  min-height: 86vh;
+  height: inherit;
+}
+
+.left-side {
+  padding-top: 10px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.center-side {
+  padding-top: 10px;
+  width: 40%;
+}
+
+.right-side {
+  padding-top: 10px;
+  width: 38%;
+}
+
+input {
+  border: 1.5px solid #8f8f8f;
+}
+
+.input-box:focus {
+  border: 1.5px solid #0987d6;
+}
+
+.left-side button {
+  width: 60%;
+  margin: 15px;
+  padding: 10px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.input-text {
+  font-size: 20px;
+  color: #8f8f8f;
+  margin: auto 0px auto 0px;
+  padding: 0px;
+}
+
+.warning-text {
+  color: darkred;
+  text-align: center;
+  margin: 0px;
+}
+
+.success-text {
+  color: limegreen;
+  text-align: center;
+  margin: 0px;
+}
+
+.info-btn {
+  width: 20px;
+  height: auto;
+}
+
+.email-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.field-number-btn {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  margin: auto 5px auto 5px;
+  border-radius: 100px;
+  padding-bottom: 7px;
+}
+
+.email-text {
+  font-size: 20px;
+  color: #8f8f8f;
+  margin: 20px 0px auto 0px;
+  padding: 0px;
+}
+
+button.form-submit-btn {
+  width: 60%;
+  margin: 15px;
+  padding: 10px;
+}
+.form-submit-div {
+  display: flex;
+  justify-content: center;
+}
+
+.form-card-list {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

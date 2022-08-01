@@ -1,0 +1,43 @@
+.thanks-text {
+  text-decoration: none;
+}
+
+.return-btn {
+  width: 200px;
+  height: 40px;
+  border: 2px solid #fff;
+  background-color: #0000;
+  color: #fff;
+  font-size: 16px;
+}
+
+.return-btn:hover {
+  border-color: #021a2d;
+  color: #021a2d;
+  background-color: #fff9;
+}
+
+.box-text-thanks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 5px 20px 5px;
+}
+
+.box-text-thanks h3 {
+  padding: 0px 10px 0px 10px;
+}
+
+.box-text-thanks {
+  border: 2px solid #141a2d;
+  border-radius: 8px;
+  background-color: #021a2d44;
+  width: 57%;
+}
+
+@media screen and (max-width: 928px) {
+  .box-text-thanks {
+    width: auto;
+    margin: 0px 20px 0px 20px;
+  }
+}
